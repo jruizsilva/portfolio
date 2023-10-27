@@ -1,16 +1,15 @@
+import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import {
   Box,
   Button,
   Container,
   Flex,
-  Link,
   Stack,
   VisuallyHidden,
   chakra,
   useColorMode,
   useColorModeValue
 } from '@chakra-ui/react'
-import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 interface Props {}
 
@@ -72,7 +71,7 @@ export function Navbar(props: Props) {
                 <FaLinkedin />
               </SocialButton>
               <SocialButton
-                href={'https://github.com/jonathanruizsilva'}
+                href={'https://github.com/jruizsilva'}
                 label={'YouTube'}
               >
                 <FaGithub />

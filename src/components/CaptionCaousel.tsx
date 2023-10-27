@@ -1,20 +1,5 @@
-import React from 'react'
-import {
-  Box,
-  IconButton,
-  useBreakpointValue,
-  Stack,
-  Heading,
-  Text,
-  Container,
-  chakra,
-  Image,
-  Flex,
-  useColorMode,
-  useColorModeValue
-} from '@chakra-ui/react'
+import { Box, Container, Heading, chakra } from '@chakra-ui/react'
 // Here we have used react-icons package for the icons
-import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick'
 import { v4 as uuidv4 } from 'uuid' // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
@@ -72,10 +57,10 @@ export function CaptionCarousel() {
         'PostgreSQL'
       ],
       github: {
-        frontend: 'https://github.com/jonathanruizsilva/finanzas-app-frontend',
-        backend: 'https://github.com/jonathanruizsilva/finanzas-app-backend'
+        frontend: 'https://github.com/jruizsilva/finanzas-app-frontend',
+        backend: 'https://github.com/jruizsilva/finanzas-app-backend'
       },
-      deploy: 'https://finanzas-app-frontend-jonathanruizsilva.vercel.app'
+      deploy: 'https://finanzas-app-frontend-jruizsilva.vercel.app'
     },
     {
       id: uuidv4(),
@@ -93,11 +78,10 @@ export function CaptionCarousel() {
         'PostgreSQL'
       ],
       github: {
-        frontend:
-          'https://github.com/jonathanruizsilva/image-uploader-frontend',
-        backend: 'https://github.com/jonathanruizsilva/image-uploader-backend'
+        frontend: 'https://github.com/jruizsilva/image-uploader-frontend',
+        backend: 'https://github.com/jruizsilva/image-uploader-backend'
       },
-      deploy: 'https://image-uploader-frontend-jonathanruizsilva.vercel.app/'
+      deploy: 'https://image-uploader-frontend-jruizsilva.vercel.app'
     },
     {
       id: uuidv4(),
@@ -115,11 +99,10 @@ export function CaptionCarousel() {
         'PostgreSQL'
       ],
       github: {
-        frontend:
-          'https://github.com/jonathanruizsilva/e-commerce-labs-frontend',
-        backend: 'https://github.com/jonathanruizsilva/e-commerce-labs-backend'
+        frontend: 'https://github.com/jruizsilva/e-commerce-labs-frontend',
+        backend: 'https://github.com/jruizsilva/e-commerce-labs-backend'
       },
-      deploy: 'https://e-commerce-labs-frontend-jonathanruizsilva.vercel.app/'
+      deploy: 'https://e-commerce-labs-frontend-jruizsilva.vercel.app'
     }
   ]
 
