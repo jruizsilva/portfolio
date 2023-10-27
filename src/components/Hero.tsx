@@ -1,12 +1,11 @@
 import {
   Box,
-  Heading,
-  Container,
-  Text,
   Button,
-  Stack,
+  Container,
+  Heading,
   Link,
-  useColorModeValue
+  Stack,
+  Text
 } from '@chakra-ui/react'
 
 export function Hero() {
@@ -58,7 +57,7 @@ export function Hero() {
               bg={'green.400'}
               colorScheme={'green'}
               href={
-                'https://drive.google.com/file/d/164QSPSowa-d35Ga4ZEgcUVoWUc8NPW4s/view?usp=sharing'
+                'https://drive.google.com/file/d/164-cMae6-XPTGntPQtomMj3pDcrv-7oe/view?usp=sharing'
               }
               px={6}
               rounded={'full'}
