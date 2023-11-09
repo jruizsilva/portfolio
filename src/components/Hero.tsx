@@ -57,7 +57,7 @@ export function Hero() {
               bg={'green.400'}
               colorScheme={'green'}
               href={
-                'https://drive.google.com/file/d/164-cMae6-XPTGntPQtomMj3pDcrv-7oe/view?usp=sharing'
+                'https://drive.google.com/file/d/1NzbU1CFDlFTk0LdnaMokE0Md0VOox2TM/view'
               }
               px={6}
               rounded={'full'}
