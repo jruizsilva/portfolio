@@ -12,9 +12,12 @@ export interface Project {
   deploy: string
 }
 type Stack =
-  | 'Javascript'
+  | 'Typescript'
   | 'React.js'
-  | 'Node.js'
-  | 'Express.js'
-  | 'Sequelize'
+  | 'Zustand'
+  | 'TanStack Query'
+  | 'Web Sockets'
+  | 'Chakra UI'
+  | 'Spring Boot 3'
+  | 'H2'
   | 'PostgreSQL'

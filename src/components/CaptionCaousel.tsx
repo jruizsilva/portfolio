@@ -43,66 +43,49 @@ export function CaptionCarousel() {
   const projects: Project[] = [
     {
       id: uuidv4(),
-      title: 'Aplicación de finanzas',
+      title: 'Clon Twitter',
       description:
-        'Aplicación web de finanzas personales que permite a los usuarios registrar y analizar sus ingresos y egresos de manera efectiva. Con autenticación de usuarios, filtros, búsquedas y paginación.',
-      projectImage: images.finanzasApp,
+        'Desarrollar una aplicación que permite a los usuarios publicar posts, comentar, dar likes a posts o comentarios, guardar posts, seguir usuarios. Subir imagenes de perfil y de fondo, editar los datos del usuario',
+      projectImage: images.twitterClon,
       subtitle: 'Proyecto personal',
       stack: [
-        'Javascript',
+        'Typescript',
         'React.js',
-        'Node.js',
-        'Express.js',
-        'Sequelize',
-        'PostgreSQL'
+        'Chakra UI',
+        'Zustand',
+        'TanStack Query',
+        'Spring Boot 3',
+        'H2'
       ],
       github: {
-        frontend: 'https://github.com/jruizsilva/finanzas-app-frontend',
-        backend: 'https://github.com/jruizsilva/finanzas-app-backend'
+        frontend: 'https://github.com/jruizsilva/twitter-clon-devchallenges',
+        backend: 'https://github.com/jruizsilva/twitterclonv2'
       },
-      deploy: 'https://finanzas-app-frontend-jruizsilva.vercel.app'
+      deploy: 'https://twitter-clon-frontend.vercel.app'
     },
     {
       id: uuidv4(),
-      title: 'Subidor de imagenes',
+      title: 'Simple Chat App',
       description:
-        'Práctico subidor de imágenes con función de arrastrar y soltar (drag and drop). Permite a los usuarios cargar imágenes de manera sencilla y rápida. Una vez que se ha subido la imagen, la aplicación genera automáticamente una URL única que puede ser copiada y compartida para acceder a la imagen almacenada en la plataforma.',
-      projectImage: images.imageUploader,
-      subtitle: 'Proyecto personal - devchallenges.io',
+        'Desarrollar una aplicación web que permite a los usuarios chatear un salas publicas o privadas',
+      projectImage: images.chatApp,
+      subtitle: 'Proyecto personal',
       stack: [
-        'Javascript',
+        'Typescript',
         'React.js',
-        'Node.js',
-        'Express.js',
-        'Sequelize',
-        'PostgreSQL'
+        'Chakra UI',
+        'Zustand',
+        'TanStack Query',
+        'Spring Boot 3',
+        'H2'
       ],
       github: {
-        frontend: 'https://github.com/jruizsilva/image-uploader-frontend',
-        backend: 'https://github.com/jruizsilva/image-uploader-backend'
+        frontend:
+          'https://github.com/jruizsilva/basic-chat-with-websocket-frontend',
+        backend:
+          'https://github.com/jruizsilva/basic-chat-with-websocket-backend'
       },
-      deploy: 'https://image-uploader-frontend-jruizsilva.vercel.app'
-    },
-    {
-      id: uuidv4(),
-      title: 'Clon MercadoLibre',
-      description:
-        'La aplicación web es un clon de Mercado Libre que permite a los usuarios registrarse, iniciar sesión y realizar diversas actividades relacionadas con la compra y venta en línea. Los usuarios pueden buscar, filtrar y solicitar productos, hacer preguntas sobre ellos y recibir respuestas de los propietarios. También pueden agregar productos al carrito, recibir notificaciones sobre sus compras y contactar a los vendedores a través de un chat. Además, pueden calificar los productos que han comprado y realizar un seguimiento de sus publicaciones, compras y ventas. La aplicación también ofrece funciones de edición de perfil y recuperación de contraseñas.',
-      projectImage: images.eCommerceLabs,
-      subtitle: 'Proyecto grupal - Henry Bootcamp',
-      stack: [
-        'Javascript',
-        'React.js',
-        'Node.js',
-        'Express.js',
-        'Sequelize',
-        'PostgreSQL'
-      ],
-      github: {
-        frontend: 'https://github.com/jruizsilva/e-commerce-labs-frontend',
-        backend: 'https://github.com/jruizsilva/e-commerce-labs-backend'
-      },
-      deploy: 'https://e-commerce-labs-frontend-jruizsilva.vercel.app'
+      deploy: 'https://basic-chat-with-websocket-frontend.vercel.app/'
     }
   ]
 
