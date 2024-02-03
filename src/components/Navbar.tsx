@@ -72,7 +72,7 @@ export function Navbar(props: Props) {
               </SocialButton>
               <SocialButton
                 href={'https://github.com/jruizsilva'}
-                label={'YouTube'}
+                label={'Github'}
               >
                 <FaGithub />
               </SocialButton>
